@@ -1,0 +1,23 @@
+# Ignore Terraform large storage files
+*LICENSE
+*providers
+
+# Terraform state files
+*.terraform.tfstate
+terraform.tfstate
+*.terraform.backup
+terraform.tfstate.backup
+*.terraform
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude Terraform configuration override files
+*.tfvars
+*.tfvars.json
+
+# Ignore .terraform directory (for local backends)
+.terraform/
+registry.terraform.io
